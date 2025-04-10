@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devcation'25</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="hero.jpg">
+</head>
+<body>
+    <header id="navheader" class="fixed-top">
+        <div class="navcontainer">
+            <a href="/" class="logo-container">
+                <img src="images/logogdg-oPSCtV20.png" alt="Logo" class="logo-img">
+            </a>
+            <nav id="navbar" class="navbar nav-hide">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#">Home</a></li>
+                    <li><a class="nav-link scrollto" href="#about">About</a></li>
+                    <li><a class="nav-link scrollto" href="#aboutdev">Devcation`25</a></li>
+                    <li><a class="nav-link scrollto" href="#features">Timeline</a></li>
+                    <li><a class="nav-link scrollto" href="event">Events</a></li>
+                    <li class="nav-link dropdown">
+                        <a class="dropdown-toggle" href="#" role="button">More</a>
+                        <ul class="dropdown-menu menu-hide">
+                            <li><a class="dropdown-item" href="#tracks">Tracks</a></li>
+                            <li><a class="dropdown-item" href="#prizes">Prizes</a></li>
+                            <li><a class="dropdown-item" href="#sponsors">Sponsors</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="Hambu-Social">
+                <div class="social-links">
+                    <a href="https://discord.gg/eG4YP3gA48" target="_blank" rel="noopener noreferrer" class="cta-link">
+                        <div class="single-cta"><i class="fab fa-discord"></i></div>
+                    </a>
+                </div>
+                <div class="NavHamToggel">
+                    <svg class="nav-ham-icon" viewBox="0 0 24 24">
+                        <path d="M3 18h18v-2H3zm0-5h18v-2H3zm0-7v2h18V6z"></path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="header-container" id="header">
+        <div class="text-container">
+            <h2 class="title textWelcome">Welcome to</h2>
+            <h2 class="title textDev">Devcation`25</h2>
+            <button class="button">
+                <img class="button-icon" src="images/favicon.png" alt="arrow">Register Now
+            </button>
+            <div class="social-container">
+                <a href="https://twitter.com/gdsc_igdtuw" target="_blank" class="twitter">
+                    <svg class="social-icon" viewBox="0 0 24 24" data-testid="XIcon">
+                        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path>
+                    </svg>
+                </a>
+                <a href="https://www.facebook.com/GDSCIGDTUW/" target="_blank" class="facebook">
+                    <svg class="social-icon" viewBox="0 0 24 24" data-testid="FacebookIcon">
+                        <path d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m13 2h-2.5A3.5 3.5 0 0 0 12 8.5V11h-2v3h2v7h3v-7h3v-3h-3V9a1 1 0 0 1 1-1h2V5z"></path>
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/company/dscigdtuw/mycompany/" target="_blank" class="linkedin">
+                    <svg class="social-icon" viewBox="0 0 24 24" data-testid="LinkedInIcon">
+                        <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"></path>
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/gdsc_igdtuw" target="_blank" class="instagram">
+                    <svg class="social-icon" viewBox="0 0 24 24" data-testid="InstagramIcon">
+                        <path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path>
+                    </svg>
+                </a>
+                <a href="https://www.youtube.com/@DSCIGDTUW" target="_blank" class="youtube">
+                    <svg class="social-icon" viewBox="0 0 24 24" data-testid="YouTubeIcon">
+                        <path d="M10 15l5.19-3L10 9v6m11.56-7.83c.13.47.22 1.1.28 1.9.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83-.25.9-.83 1.48-1.73 1.73-.47.13-1.33.22-2.65.28-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44-.9-.25-1.48-.83-1.73-1.73-.13-.47-.22-1.1-.28-1.9-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83.25-.9.83-1.48 1.73-1.73.47-.13 1.33-.22 2.65-.28 1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44.9.25 1.48.83 1.73 1.73z"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="images/hero1.jpeg" alt="header" class="image">
+        </div>
+    </div>
+
+
+    <div class="stats-container" >
+        <div class="stats-row">
+            <div class="stat-item">
+                <span data-target="4.7">0</span>
+                <h4>Hacker rating</h4>
+            </div>
+            <div class="stat-item">
+                <span data-target="300">0</span>
+                <h4>Hacks</h4>
+            </div>
+            <div class="stat-item">
+                <span data-target="30">0</span>
+                <h4>Speakers and mentors</h4>
+            </div>
+            <div class="stat-item">
+                <span data-target="1000">1</span>
+                <h4>Hackers</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="container1" id="about">
+        <div class="title">
+          <h2 class="about">About GDG IGDTUW</h2>
+        </div>
+        
+        <div class="screen-container">
+          <!-- Left Section - Notice Board -->
+          <div class="notice-board">
+            <!-- Decorative Pins -->
+            <div class="pin pin-1"></div>
+            <div class="pin pin-2"></div>
+            
+            <!-- Your existing content in notice paper style -->
+            <div class="notice-paper">
+              <p class="first-p">Here at GDG IGDTUW, we explore technology and use it to build products that brings about positive change in society. We conduct mentorship sessions, workshops, knowledge transfer sessions, hackathons, coding contests, open source programs, etc. where students from across the globe get to showcase their knowledge and develop their skillset.</p>
+            </div>
+            
+            <div class="notice-paper">
+              <div class="counter-km">
+                <svg class="km" width="39" height="32" viewBox="0 0 39 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <!-- KM SVG paths -->
+                </svg>
+              </div>
+              <p class="second-p">We have helped more than 7000+ university students to expand their technical knowledge and skills.</p>
+            </div>
+            
+            <!-- Your decorative elements -->
+            <div class="cat">
+              <svg width="27" height="26" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Cat SVG paths -->
+              </svg>
+            </div>
+            <div class="cursor">
+              <svg class="cursor-svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Cursor SVG paths -->
+              </svg>
+            </div>
+          </div>
+          
+          <!-- Right Section - Image Gallery -->
+<div class="image-gallery">
+    <div class="photo-album">
+      <!-- Main Featured Photo -->
+      <div class="album-page featured-photo">
+        <div class="photo-frame">
+          <img src="images/about.png" alt="GDG IGDTUW Activities">
+          <div class="photo-caption">Our Community Journey</div>
+        </div>
+        <div class="page-corner"></div>
+      </div>
+      
+      <!-- Thumbnail Photos -->
+      <div class="album-thumbnails">
+        <div class="album-page">
+          <div class="photo-frame polaroid-effect">
+            <img src="images/about-1.png" alt="Workshop">
+            <div class="photo-caption">Tech Workshop</div>
+          </div>
+        </div>
+        
+        <div class="album-page">
+          <div class="photo-frame polaroid-effect">
+            <img src="images/about-2.png" alt="Hackathon">
+            <div class="photo-caption">Annual Hackathon</div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Decorative Album Elements -->
+      <div class="album-binding"></div>
+      <div class="album-ribbon"></div>
+    </div>
+  </div>
+            
+            <!-- More decorative elements -->
+            <div class="sleep-cat">
+              <svg width="25" height="21" viewBox="0 0 25 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Sleep cat SVG paths -->
+              </svg>
+            </div>
+            <div class="clippy">
+              <svg class="clippy-svg" width="56" height="96" viewBox="0 0 56 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Clippy SVG paths -->
+              </svg>
+            </div>
+          </div>
+          
+          <!-- Window Controls (positioned absolutely) -->
+          <div class="top-window">
+            <div class="top-buttons">
+              <svg width="56" height="16" viewBox="0 0 56 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <!-- Window buttons SVG paths -->
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <h1 class="section-heading"  id="aboutdev">About Devcation`25</h1>
+    
+    <div class="about-devcation-container">
+        <img src="images/header.png" alt="header" class="about-devcation-image">
+        <div class="about-devcation-text">
+            <div class="about-devcation-border">
+                <div class="about-devcation-header"></div>
+                <h6>
+                    Devcation is a week-long technical festival organized by Google Developer Groups - Indira Gandhi Delhi Technical University for Women that celebrates diversity in the TechForGood Domain. During the week, we have the Devcation`25 hackathon. These events are designed to spark your creativity, encourage innovative thinking, and help you craft tech solutions that stand out.
+                </h6>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tracks Section -->
+    <h1 id="tracks" class="section-heading">Tracks</h1>
+    <div class="tracks-container">
+        <div class="tracks-grid">
+            <div class="track-item">
+                <img src="images/mental-health.png" alt="healthtech">
+                HealthTech
+            </div>
+            <div class="track-item">
+                <img src="images/fist.png" alt="edtech-fintech">
+                EdTech
+            </div>
+            <div class="track-item">
+                <img src="images/save-the-world.png" alt="sustainable-development">
+                Sustainable Development (Open Innovation)
+            </div>
+            <div class="track-item">
+                <img src="images/innovation.png" alt="open-innovation">
+                FinTech
+            </div>
+        </div>
+    </div>
+
+    <!-- Judges Section -->
+    <h1 class="section-heading">Judges</h1>
+    <div class="judges-container">
+        <div class="judges-grid">
+            <!-- Judge 1 -->
+            <div class="judge-card">
+                <img src="images/Kartik.jpeg" alt="Kartik Mathur">
+                <div class="judge-info">
+                    <a href="https://www.linkedin.com/in/kartik-mathur/" target="_blank">
+                        <svg class="linkedin-icon" viewBox="0 0 448 512">
+                            <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
+                        </svg>
+                    </a>
+                    <h2>Kartik Mathur</h2>
+                </div>
+            </div>
+            
+            <!-- Judge 2 -->
+            <div class="judge-card">
+                <img src="images/vani.jpeg" alt="Vani Chitkara">
+                <div class="judge-info">
+                    <a href="https://www.linkedin.com/in/vani-chitkara/" target="_blank">
+                        <svg class="linkedin-icon" viewBox="0 0 448 512">
+                            <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
+                        </svg>
+                    </a>
+                    <h2>Vani Chitkara</h2>
+                </div>
+            </div>
+            
+            <!-- Judge 3 -->
+            <div class="judge-card">
+                <img src="images/aarnav.jpg" alt="Aarnav Jindal">
+                <div class="judge-info">
+                    <a href="https://www.linkedin.com/in/aarnavjindal/" target="_blank">
+                        <svg class="linkedin-icon" viewBox="0 0 448 512">
+                            <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
+                        </svg>
+                    </a>
+                    <h2>Aarnav Jindal</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mentors Section -->
+
+    <h1 class="section-heading">Mentors</h1>
+    
+    <div class="mentors-container">
+        <div class="mentors-grid">
+            <!-- Mentor 1 -->
+            <div class="mentor-card">
+                <img src="./images/RadhikaBansal_Devcation.jpeg" alt="Radhika Bansal" class="mentor-image">
+                <div class="mentor-info">
+                    <a href="https://www.linkedin.com/in/radhika403/" target="_blank" rel="noopener noreferrer">
+                        <svg class="linkedin-icon" viewBox="0 0 448 512">
+                            <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
+                        </svg>
+                    </a>
+                    <h2 class="mentor-name">Radhika Bansal</h2>
+                </div>
+            </div>
+            
+            <!-- Mentor 2 -->
+            <div class="mentor-card">
+                <img src="./images/SanidhyaGoel.jpeg" alt="Sanidhya Goel" class="mentor-image">
+                <div class="mentor-info">
+                    <a href="https://www.linkedin.com/in/sanidhyagoel18/" target="_blank" rel="noopener noreferrer">
+                        <svg class="linkedin-icon" viewBox="0 0 448 512">
+                            <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
+                        </svg>
+                    </a>
+                    <h2 class="mentor-name">Sanidhya Goel</h2>
+                </div>
+            </div>
+            
+            <!-- Mentor 3 -->
+            <div class="mentor-card">
+                <img src="./images/TejaswiTyagi_Mentor.jpg" alt="Tejaswi Tyagi" class="mentor-image">
+                <div class="mentor-info">
+                    <a href="https://www.linkedin.com/in/tejaswi-tyagi/" target="_blank" rel="noopener noreferrer">
+                        <svg class="linkedin-icon" viewBox="0 0 448 512">
+                            <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
+                        </svg>
+                    </a>
+                    <h2 class="mentor-name">Tejaswi Tyagi</h2>
+                </div>
+            </div>
+            
+            <!-- Mentor 4 -->
+            <div class="mentor-card">
+                <img src="./images/AkankshaJha_Mentor.jpg" alt="Akanksha Jha" class="mentor-image">
+                <div class="mentor-info">
+                    <a href="https://www.linkedin.com/in/akanksha-jha-8609a422a" target="_blank" rel="noopener noreferrer">
+                        <svg class="linkedin-icon" viewBox="0 0 448 512">
+                            <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
+                        </svg>
+                    </a>
+                    <h2 class="mentor-name">Akanksha Jha</h2>
+                </div>
+            </div>
+            
+            <!-- Mentor 5 -->
+            <div class="mentor-card">
+                <img src="./images/VikranthUdandarao_Mentor.jpg" alt="Vikranth Udandarao" class="mentor-image">
+                <div class="mentor-info">
+                    <a href="https://www.linkedin.com/in/vikranth-udandarao/" target="_blank" rel="noopener noreferrer">
+                        <svg class="linkedin-icon" viewBox="0 0 448 512">
+                            <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
+                        </svg>
+                    </a>
+                    <h2 class="mentor-name">Vikranth Udandarao</h2>
+                </div>
+            </div>
+            
+            <!-- Mentor 6 -->
+            <div class="mentor-card">
+                <img src="./images/RudraPratapDash.jpg" alt="Rudra Pratap Dash" class="mentor-image">
+                <div class="mentor-info">
+                    <a href="https://www.linkedin.com/in/rudra-pratap-dash-b2ab16267/" target="_blank" rel="noopener noreferrer">
+                        <svg class="linkedin-icon" viewBox="0 0 448 512">
+                            <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
+                        </svg>
+                    </a>
+                    <h2 class="mentor-name">Rudra Pratap Dash</h2>
+                </div>
+            </div>
+            
+            <!-- Mentor 7 -->
+            <div class="mentor-card">
+                <img src="./images/Aishvi.png" alt="Aishvi Guleria" class="mentor-image">
+                <div class="mentor-info">
+                    <a href="https://www.linkedin.com/in/aishvi-guleria-09a04222b" target="_blank" rel="noopener noreferrer">
+                        <svg class="linkedin-icon" viewBox="0 0 448 512">
+                            <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
+                        </svg>
+                    </a>
+                    <h2 class="mentor-name">Aishvi Guleria</h2>
+                </div>
+            </div>
+            
+            <!-- Mentor 8 -->
+            <div class="mentor-card">
+                <img src="./images/PrathamBatra_Mentor.jpeg" alt="Pratham Batra" class="mentor-image">
+                <div class="mentor-info">
+                    <a href="https://www.linkedin.com/in/pratham1908/" target="_blank" rel="noopener noreferrer">
+                        <svg class="linkedin-icon" viewBox="0 0 448 512">
+                            <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
+                        </svg>
+                    </a>
+                    <h2 class="mentor-name">Pratham Batra</h2>
+                </div>
+            </div>
+            
+            <!-- Mentor 9 -->
+            <div class="mentor-card">
+                <img src="./images/TeekshaHarish_Mentor.jpeg" alt="Teeksha Harish" class="mentor-image">
+                <div class="mentor-info">
+                    <a href="https://www.linkedin.com/in/teeksha-harish-5895a0234/" target="_blank" rel="noopener noreferrer">
+                        <svg class="linkedin-icon" viewBox="0 0 448 512">
+                            <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
+                        </svg>
+                    </a>
+                    <h2 class="mentor-name">Teeksha Harish</h2>
+                </div>
+            </div>
+            
+            <!-- Mentor 10 -->
+            <div class="mentor-card">
+                <img src="./images/DhruvBakshi_Mentor.jpg" alt="Dhruv Bakshi" class="mentor-image">
+                <div class="mentor-info">
+                    <a href="https://www.linkedin.com/in/dhruvbakshiwork" target="_blank" rel="noopener noreferrer">
+                        <svg class="linkedin-icon" viewBox="0 0 448 512">
+                            <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
+                        </svg>
+                    </a>
+                    <h2 class="mentor-name">Dhruv Bakshi</h2>
+                </div>
+            </div>
+            
+            <!-- Mentor 11 -->
+            <div class="mentor-card">
+                <img src="./images/SuhaniNagpal_Mentor.jpeg" alt="Suhani Nagpal" class="mentor-image">
+                <div class="mentor-info">
+                    <a href="https://www.linkedin.com/in/suhani-nagpal072/" target="_blank" rel="noopener noreferrer">
+                        <svg class="linkedin-icon" viewBox="0 0 448 512">
+                            <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
+                        </svg>
+                    </a>
+                    <h2 class="mentor-name">Suhani Nagpal</h2>
+                </div>
+            </div>
+            
+            <!-- Mentor 12 -->
+            <div class="mentor-card">
+                <img src="./images/TanmayArora.jpg" alt="Tanmay Arora" class="mentor-image">
+                <div class="mentor-info">
+                    <a href="https://www.linkedin.com/in/tanmaycode1/" target="_blank" rel="noopener noreferrer">
+                        <svg class="linkedin-icon" viewBox="0 0 448 512">
+                            <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
+                        </svg>
+                    </a>
+                    <h2 class="mentor-name">Tanmay Arora</h2>
+                </div>
+            </div>
+            
+            <!-- Mentor 13 -->
+            <div class="mentor-card">
+                <img src="./images/Aditya.png" alt="Aditya Girdhar" class="mentor-image">
+                <div class="mentor-info">
+                    <a href="https://www.linkedin.com/in/adityagirdhar" target="_blank" rel="noopener noreferrer">
+                        <svg class="linkedin-icon" viewBox="0 0 448 512">
+                            <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
+                        </svg>
+                    </a>
+                    <h2 class="mentor-name">Aditya Girdhar</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Timeline Section -->
+<div id="timeline" class="timeline-section">
+    <h1 class="section-heading">Timeline</h1>
+    
+    <div class="timeline-container">
+        <div class="timeline">
+            <!-- Timeline Item 1 -->
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <svg viewBox="0 0 16 16">
+                        <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z"></path>
+                    </svg>
+                </div>
+                <div class="timeline-content">
+                    <h2>🎉Opening Ceremony & Registration </h2>
+                    <p>
+                        <ul>
+                            <li>Submission for all Mini Events and the Registration for the Hackathon Starts</li>
+                        </ul>
+                    </p>
+                    <div class="timeline-date">April 4th, 2025</div>
+                </div>
+            </div>
+            
+            <!-- Timeline Item 2 -->
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <svg viewBox="0 0 16 16">
+                        <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z"></path>
+                    </svg>
+                </div>
+                <div class="timeline-content">
+                    <h2>🔒 Hacking Period Starts! 🔓</h2>
+                    <p>
+                        <ul>
+                            <li>Get ready to code, create, and innovate!</li>
+                        </ul>
+                    </p>
+                    <div class="timeline-date">April 8th, 2025</div>
+                </div>
+            </div>
+            
+            <!-- Timeline Item 3 -->
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <svg viewBox="0 0 16 16">
+                        <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z"></path>
+                    </svg>
+                </div>
+                <div class="timeline-content">
+                    <h2>⏰ Hacking Period Ends ⏰</h2>
+                    <p>
+                        <ul>
+                            <li>Make sure to wrap up your projects and prepare for submission</li>
+                        </ul>
+                    </p>
+                    <div class="timeline-date">April 12th, 2025</div>
+                </div>
+            </div>
+            
+            <!-- Timeline Item 4 -->
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <svg viewBox="0 0 16 16">
+                        <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z"></path>
+                    </svg>
+                </div>
+                <div class="timeline-content">
+                    <h2>👨‍💻 Mentorship Round Starts 👩‍💻</h2>
+                    <p>
+                        <ul>
+                            <li>Providing mentorship and feedback for every submitted project</li>
+                        </ul>
+                    </p>
+                    <div class="timeline-date">April 13th, 2025</div>
+                </div>
+            </div>
+            
+            <!-- Timeline Item 5 -->
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <svg viewBox="0 0 16 16">
+                        <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z"></path>
+                    </svg>
+                </div>
+                <div class="timeline-content">
+                    <h2>📅 Final Pitching and Closing Ceremony 📅</h2>
+                    <p>
+                        <ul>
+                            <li>Don't miss out on this memorable event!</li>
+                            <li>Winners will be announced and prizes awarded</li>
+                        </ul>
+                    </p>
+                    <div class="timeline-date">April 15th, 2025</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Prizes Section -->
+    <h1 id="prizes" class="section-heading">Prizes</h1>
+    <div class="prizes-container">
+        
+        <!-- Prize 1 -->
+        <div class="prize-card">
+            <img src="images/prize.png" alt="Prize">
+            <div class="prize-title">Hack & Solve Winners</div>
+            <p class="prize-description">
+                Cash Prize with swag kits, medals, certificates, social media shoutouts, 
+                Interview Buddy Mock Interviews, Codecrafter Membership, Unstop Coupons.
+            </p>
+        </div>
+
+        <div class="prize-card">
+            <img src="images/prize.png" alt="Prize">
+            <div class="prize-title">Mini Event Winners</div>
+            <p class="prize-description">
+                Goodies, certificates, social media shoutouts, unstop coupons.
+            </p>
+        </div>
+
+        <div class="prize-card">
+            <img src="images/prize.png" alt="Prize">
+            <div class="prize-title">All Finalists</div>
+            <p class="prize-description">
+                Exciting goodies, certificates, unstop coupons
+            </p>
+        </div>
+
+        <div class="prize-card">
+            <img src="images/prize.png" alt="Prize">
+            <div class="prize-title">All Participants</div>
+            <p class="prize-description">
+                ertificates and 50% unstop coupons and exclusive discount vouchers from IB for all
+            </p>
+        </div>
+        
+        <!-- More prize cards... -->
+        
+    </div>
+
+    <!-- Sponsors Section -->
+    <h1 id="sponsors" class="section-heading">Sponsors</h1>
+    <div class="sponsors-container">
+        
+        <!-- Sponsor Row 1 -->
+        <div class="sponsor-row">
+            <div class="sponsor-card">
+                <a href="https://sites.google.com/view/rcigdtuw/home" target="_blank">
+                    <img src="images/rcigdtuw.jpg" alt="RC IGDTUW">
+                </a>
+            </div>
+
+            <div class="sponsor-card">
+                <a href="https://unstop.com/" target="_blank">
+                    <img src="images/unstop.jpg" alt="Unstop">
+                </a>
+            </div>
+
+            <div class="sponsor-card">
+                <a href="https://www.geekroom.in/" target="_blank">
+                    <img src="images/geekroom.jpg" alt="Geekroom">
+                </a>
+            </div>
+
+            <div class="sponsor-card">
+                <a href="https://www.sprintindia.work/about-us/" target="_blank">
+                    <img src="images/sprint.jpg" alt="Sprint">
+                </a>
+            </div>
+
+            <div class="sponsor-card">
+                <a href="https://dev.interviewbuddy.in/" target="_blank">
+                    <img src="images/interview_buddy.png" alt="Interview Buddy">
+                </a>
+            </div>
+
+            <div class="sponsor-card">
+                <a href="https://codecrafters.io/" target="_blank">
+                    <img src="images/codecrafters.jpg" alt="Codecrafters">
+                </a>
+            </div>
+            
+            <!-- More sponsor cards... -->
+            
+        </div>
+        
+        <!-- More sponsor rows... -->
+        
+    </div>
+
+   <!-- FAQ Section -->
+<div class="faq-container">
+    <h1 class="section-heading">Frequently Asked Questions</h1>
+    
+    <!-- FAQ Item 1 -->
+    <div class="faq-item">
+        <div class="faq-question">
+            <h2>Who can contribute?</h2>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer">
+            <p>Devcation is open to anyone with an interest in technology, innovation, and problem-solving. Participants can include students, developers, designers, entrepreneurs, and professionals from various backgrounds.</p>
+        </div>
+    </div>
+    
+    <!-- FAQ Item 2 -->
+    <div class="faq-item">
+        <div class="faq-question">
+            <h2>How do I register for the event?</h2>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer">
+            <p>You can register through our website by clicking on the "Register" button and filling out the required information. Registration is free and open until the event start date.</p>
+        </div>
+    </div>
+    
+    <!-- FAQ Item 3 -->
+    <div class="faq-item">
+        <div class="faq-question">
+            <h2>What should I bring to the event?</h2>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer">
+            <p>Please bring your laptop, charger, and any other devices you might need for development. For in-person events, we recommend bringing a water bottle and comfortable clothing.</p>
+        </div>
+    </div>
+    
+    <!-- FAQ Item 4 -->
+    <div class="faq-item">
+        <div class="faq-question">
+            <h2>Do I need to have a team before joining?</h2>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer">
+            <p>No, you don't need to have a team beforehand. We'll have team formation sessions at the beginning of the event to help participants form teams based on skills and interests.</p>
+        </div>
+    </div>
+    
+    <!-- FAQ Item 5 -->
+    <div class="faq-item">
+        <div class="faq-question">
+            <h2>What are the judging criteria?</h2>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer">
+            <p>Projects will be judged based on innovation, technical complexity, design, usability, and potential impact. The exact criteria will be shared with all participants at the start of the event.</p>
+        </div>
+    </div>
+    
+    <!-- FAQ Item 6 -->
+    <div class="faq-item">
+        <div class="faq-question">
+            <h2>Is there any cost to participate?</h2>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer">
+            <p>The event is completely free to attend. Food and refreshments will be provided for in-person events, and we'll have plenty of resources available for all participants.</p>
+        </div>
+    </div>
+    
+    <!-- FAQ Item 7 -->
+    <div class="faq-item">
+        <div class="faq-question">
+            <h2>What are the team size requirements?</h2>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer">
+            <p>Teams can consist of 2-5 members. We encourage diverse teams with a mix of skills and backgrounds for the best experience.</p>
+        </div>
+    </div>
+    
+    <!-- FAQ Item 8 -->
+    <div class="faq-item">
+        <div class="faq-question">
+            <h2>Can I participate remotely?</h2>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer">
+            <p>Yes, Devcation offers both in-person and remote participation options. All events will be accessible online for remote participants.</p>
+        </div>
+    </div>
+    
+    <!-- FAQ Item 9 -->
+    <div class="faq-item">
+        <div class="faq-question">
+            <h2>What if I'm new to hackathons?</h2>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer">
+            <p>Devcation is beginner-friendly! We'll have workshops, mentors, and resources specifically designed for first-time participants. It's a great opportunity to learn and grow.</p>
+        </div>
+    </div>
+    
+    <!-- FAQ Item 10 -->
+    <div class="faq-item">
+        <div class="faq-question">
+            <h2>How can I prepare for the event?</h2>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer">
+            <p>Brush up on your technical skills, brainstorm project ideas, and make sure your development environment is set up. We'll send out a preparation guide to all registered participants.</p>
+        </div>
+    </div>
+</div>
+
+    <!-- Footer Section -->
+    <footer id="contact">
+        <div class="footer-cta">
+            <div class="cta-container">
+                <div class="cta-item">
+                    <a href="https://discord.gg/eG4YP3gA48" target="_blank">
+                        <div class="single-cta">
+                            <i class="fab fa-discord"></i>
+                            <div class="cta-text"><h4>Join Discord</h4></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cta-item">
+                    <a href="https://chat.whatsapp.com/KIlPsKeZZdo7KhKtilL8AT" target="_blank">
+                        <div class="single-cta">
+                            <i class="fas fa-globe"></i>
+                            <div class="cta-text"><h4>Join Whatsapp</h4></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <a href="https://gdsc.community.dev/indira-gandhi-delhi-technical-university-for-women-delhi/" target="_blank">
+                        <h3>JOIN OUR <br> CHAPTER</h3>
+                    </a>
+                    <div class="contact-info">
+                        <h4>Contact us</h4>
+                        <ul>
+                            <li><a href="mailto:dscigdtuw@gmail.com">dscigdtuw@gmail.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-social">
+                        <!-- Social icons same as in header -->
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <h3>Send us a message</h3>
+                    <h4>Send your message here and we will try to get back to you as soon as possible.</h4>
+                    <form class="contact-form" action="https://formspree.io/f/mqkoaydw" method="post">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" rows="5" placeholder="Message" required></textarea>
+                        </div>
+                        <div class="form-submit">
+                            <button type="submit">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const counters = document.querySelectorAll('.stat-item span');
+            const speed = 2000; // Reduced from 10000 to 2000 for slower animation
+            
+            const animateCounters = () => {
+                counters.forEach(counter => {
+                    const target = +counter.getAttribute('data-target');
+                    const count = +counter.innerText;
+                    const increment = target / (speed / 100); // Adjusted increment calculation
+                    
+                    if(count < target) {
+                        counter.innerText = Math.ceil(count + increment);
+                        setTimeout(animateCounters, 50); // Increased delay from 1ms to 50ms
+                    } else {
+                        counter.innerText = target;
+                        counter.classList.add('count-animate');
+                    }
+                });
+            }
+            
+            // Trigger on scroll
+            const statsSection = document.querySelector('.stats-container');
+            const observer = new IntersectionObserver((entries) => {
+                if(entries[0].isIntersecting) {
+                    animateCounters();
+                }
+            }, { threshold: 0.5 }); // Only trigger when 50% of section is visible
+            
+            observer.observe(statsSection);
+        });
+        </script>
+    <script src="script.js"></script>
+</body>
+</html>
